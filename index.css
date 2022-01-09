@@ -72,8 +72,9 @@ background: radial-gradient(circle, rgba(63,94,251,1) 32%, rgba(252,70,107,1) 10
     height: 315px;
     border-style: solid;
     border-color: black;
-    border-width: 1px;
+    border-width: 4px;
     margin: 10px;
+    background-color: black;
 }
 
 .anteprimecontainer {
@@ -97,4 +98,21 @@ hr {
     border-style: solid;
     background-color: black;
     border-width: 1px;
+}
+
+.loghi {
+    width: auto;
+    height: 50px;
+    
+    margin: 1rem;
+
+}
+
+.piedipagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgb(51, 76, 201) 32%, rgb(192, 55, 83) 100%);
 }
