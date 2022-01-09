@@ -35,6 +35,32 @@ background: radial-gradient(circle, rgba(63,94,251,1) 32%, rgba(252,70,107,1) 10
     
     
 }
+
+.recensioni1 {
+    
+    position: absolute;
+    display: flex;
+    
+    font-family: 'Anton', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    margin: 1rem;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgb(51, 76, 201) 32%, rgb(192, 55, 83) 100%);
+    border-style: solid;
+     border-color: black;
+     border-radius: 30px 30px 30px 30px;
+    
+    
+
+}
+.recensionitxt {
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+    color: black;
+}
+
 .logo {
     max-width: 100px;
     
@@ -115,4 +141,5 @@ hr {
     align-items: center;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgb(51, 76, 201) 32%, rgb(192, 55, 83) 100%);
+    margin-right: 1rem;
 }
