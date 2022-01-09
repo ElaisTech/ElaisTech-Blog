@@ -10,6 +10,9 @@ background: radial-gradient(circle, rgba(63,94,251,1) 32%, rgba(252,70,107,1) 10
    padding: 1rem;
    background: rgb(63,94,251);
    background: radial-gradient(circle, rgb(51, 76, 201) 32%, rgb(192, 55, 83) 100%);
+   border-style: solid;
+    border-color: black;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .navbar {
@@ -17,6 +20,7 @@ background: radial-gradient(circle, rgba(63,94,251,1) 32%, rgba(252,70,107,1) 10
     align-items: center;
     justify-items: center;
     align-items: center;
+    
     
 }
 
@@ -33,7 +37,7 @@ background: radial-gradient(circle, rgba(63,94,251,1) 32%, rgba(252,70,107,1) 10
 }
 .logo {
     max-width: 100px;
-    padding: -1rem;
+    
 }
 
 .centraltext {
@@ -43,12 +47,14 @@ background: radial-gradient(circle, rgba(63,94,251,1) 32%, rgba(252,70,107,1) 10
     font-family: 'The Nautigal', cursive;
     margin-bottom: 5rem;
     margin-top: 5rem;
+    font-weight: 600px;
 
 
 }
 #principaltxt {
     font-size: 5rem;
     color: rgb(240, 176, 39);
+    
 }
 
 #subtext {
