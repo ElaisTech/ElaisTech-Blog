@@ -1,0 +1,50 @@
+....body {
+    background: rgb(255,255,255);
+    background: linear-gradient(28deg, rgba(255,255,255,1) 35%, rgba(0,167,201,1) 92%); }
+
+.headwrapper {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.navtext {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.5rem;
+    margin: 2rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    
+    
+}
+.logo {
+    max-width: 100px;
+    padding: -1rem;
+}
+
+.centraltext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'The Nautigal', cursive;
+
+}
+#principaltxt {
+    font-size: 4rem;
+}
+
+.myname {
+    font-family: 'Comforter Brush', cursive;
+}
