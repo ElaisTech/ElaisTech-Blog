@@ -1,3 +1,19 @@
+//Videorecensioni Table of contents - indice
+const h2s = document.querySelectorAll('.videotitle');
+const tocwrapper = document.createElement('div');
+
+h2s.forEach(h2 => {
+    const capturedh2 = document.createElement('a');
+    const title = h2.innerText;
+    const id = docunt.querySelector("id");
+    capturedh2.innerText = title;
+    capturedh2.href = id;
+
+    tocwrapper.appendChild(capturedh2);
+})
+document.querySelector('.videorectoc').appendChild(tocwrapper);
+
+
 //mostrare o nascondere sottomenu recensioni --> vedere video o leggere articoli?
 const btn = document.querySelector('#recensioni');
 const rec = document.querySelector('.recensioni1').style;
